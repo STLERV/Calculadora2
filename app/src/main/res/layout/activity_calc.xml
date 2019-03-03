@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/boton"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CALC">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="156dp"
+        android:layout_height="59dp"
+        android:text="APRETA AQUI!"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <Button
+        android:id="@+id/suma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="377dp" />
+
+    <EditText
+        android:id="@+id/textedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <EditText
+        android:id="@+id/textedit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <TextView
+        android:id="@+id/textenseñar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="529dp" />
+
+</android.support.constraint.ConstraintLayout>

@@ -64,7 +64,7 @@ public class CALC extends AppCompatActivity {
                 textenseñar.setText(res);
 
                 Toast.makeText(getApplicationContext(), res , Toast.LENGTH_LONG).show();
-
+//
 
 
 

@@ -30,7 +30,7 @@ public class CALC extends AppCompatActivity {
         setContentView(R.layout.activity_calc);
         textedit =findViewById(R.id.textedit);
         textedit2 =findViewById(R.id.textedit2);
-        boton = findViewById(R.id.boton);
+
         suma = findViewById(R.id.suma);
         textenseñar = findViewById(R.id.textenseñar);
          resta = findViewById(R.id.resta);
@@ -68,7 +68,7 @@ public class CALC extends AppCompatActivity {
                 textenseñar.setText(res);
 
                 Toast.makeText(getApplicationContext(), res , Toast.LENGTH_LONG).show();
-//
+
 
 
 

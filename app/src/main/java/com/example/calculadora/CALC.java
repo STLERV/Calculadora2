@@ -12,6 +12,8 @@ public class CALC extends AppCompatActivity {
 
      Button boton;
      Button suma;
+     Button resta;
+     Button multi;
      EditText textedit;
      EditText textedit2;
      TextView textenseñar;
@@ -31,6 +33,8 @@ public class CALC extends AppCompatActivity {
         boton = findViewById(R.id.boton);
         suma = findViewById(R.id.suma);
         textenseñar = findViewById(R.id.textenseñar);
+         resta = findViewById(R.id.resta);
+         multi = findViewById(R.id.multi);
 
 
         boton.setOnClickListener(new View.OnClickListener() {
@@ -70,5 +74,51 @@ public class CALC extends AppCompatActivity {
 
             }
         });
+/////////////////////////////////////////
+        resta.setOnClickListener(new View.OnClickListener(){
+
+
+            @Override
+            public void onClick(View v) {
+
+                String Numero1 = textedit.getText().toString();
+                String Numero2 = textedit2.getText().toString();
+                int numeroa = Integer.parseInt(Numero1);
+                int numerob = Integer.parseInt(Numero2);
+
+                int res = numeroa-numerob;
+                textenseñar.setText(res);
+
+                Toast.makeText(getApplicationContext(), res , Toast.LENGTH_LONG).show();
+//
+
+
+
+            }
+        });
+
+        multi.setOnClickListener(new View.OnClickListener(){
+
+
+            @Override
+            public void onClick(View v) {
+
+                String Numero1 = textedit.getText().toString();
+                String Numero2 = textedit2.getText().toString();
+                int numeroa = Integer.parseInt(Numero1);
+                int numerob = Integer.parseInt(Numero2);
+
+                int res = numeroa*numerob;
+                textenseñar.setText(res);
+
+                Toast.makeText(getApplicationContext(), res , Toast.LENGTH_LONG).show();
+//
+
+
+
+            }
+        });
+
+
 }
 }

@@ -16,6 +16,8 @@
             android:text="APRETA AQUI!"
             tools:layout_editor_absoluteX="81dp"
             tools:layout_editor_absoluteY="86dp" />
+    </TableRow>
+    <TableRow>
 
         <Button
             android:id="@+id/suma"
@@ -24,8 +26,9 @@
             android:text="Suma"
             tools:layout_editor_absoluteX="53dp"
             tools:layout_editor_absoluteY="371dp" />
-        <TableRow>
+
     </TableRow>
+    <TableRow>
 
         <EditText
             android:id="@+id/textedit"
@@ -42,16 +45,18 @@
             android:text="TextView"
             tools:layout_editor_absoluteX="204dp"
             tools:layout_editor_absoluteY="244dp" />
+
+    </TableRow>
         <TableRow>
-        </TableRow>
-        <TextView
+         <TextView
             android:id="@+id/textenseñar"
             android:layout_width="90dp"
             android:layout_height="39dp"
             android:text="TextView"
             tools:layout_editor_absoluteX="128dp"
             tools:layout_editor_absoluteY="534dp" />
-
+    </TableRow>
+    <TableRow>
         <Button
             android:id="@+id/resta"
             android:layout_width="wrap_content"
@@ -59,6 +64,8 @@
             android:text="RESTA"
             tools:layout_editor_absoluteX="204dp"
             tools:layout_editor_absoluteY="371dp" />
+    </TableRow>
+    <TableRow>
 
         <Button
             android:id="@+id/multi"
